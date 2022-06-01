@@ -62,7 +62,7 @@ engine:                      # Engine settings.
     chessdb_book:
       enabled: false
       min_time: 20
-      move_quality: "good"   # One of "all", "good", "best".
+      move_quality: "best"   # One of "all", "good", "best".
       min_depth: 20          # Only for move_quality: "best".
       contribute: true
     lichess_cloud_analysis:
